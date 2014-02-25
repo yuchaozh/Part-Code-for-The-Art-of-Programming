@@ -1,3 +1,4 @@
+O(n+m)的hashtable的方法
 假设这有一个各种字母组成的字符串A，和另外一个字符串B，字符串里B的字母数相对少一些。什么方法能最快的查出所有小字符串B里的字母在大字符串A里都有？
 
 Only ask to check for letter, do not care about the number of same letter appears in the string.

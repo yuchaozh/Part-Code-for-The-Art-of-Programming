@@ -1,0 +1,5 @@
+O(n*m)的轮询方法
+判断string2中的字符是否在string1中?：
+String 1: ABCDEFGHLMNOPQRS
+String 2: DCGSRQPO
+判断一个字符串是否在另一个字符串中，最直观也是最简单的思路是，针对第二个字符串string2中每一个字符，一一与第一个字符串string1中每个字符依次轮询比较，看它是否在第一个字符串string1中。

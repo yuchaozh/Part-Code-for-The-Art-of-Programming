@@ -22,6 +22,8 @@ int main()
 	for (int i = 0; i < sString.length(); i++)
 	{
 		int index = sString[i] - 'A';
+		// count records the number of different letter,
+		// only count once for same letter
 		if (hash[index] == 0)
 		{
 			hash[index] = 1;
